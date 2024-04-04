@@ -1,4 +1,5 @@
 # Parcel2Go.TechTest2024
+[![Build](https://github.com/Jan1010/Parcel2Go.TechTest2024/actions/workflows/build.yml/badge.svg)](https://github.com/Jan1010/Parcel2Go.TechTest2024/actions/workflows/build.yml)
 ## Implementation
 **ICheckout** interface is using minor currency units and is defined in [ICheckout](https://github.com/Jan1010/Parcel2Go.TechTest2024/blob/master/src/Parcel2Go.TechTest2024.Application/Services/Abstractions/ICheckout.cs).  
 Implementation of **ICheckout** can be found here [Checkout](https://github.com/Jan1010/Parcel2Go.TechTest2024/blob/master/src/Parcel2Go.TechTest2024.Application/Services/Checkout.cs).
