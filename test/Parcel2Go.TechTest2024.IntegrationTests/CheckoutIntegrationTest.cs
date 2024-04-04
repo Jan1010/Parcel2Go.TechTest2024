@@ -10,7 +10,7 @@ namespace Parcel2Go.TechTest2024.IntegrationTests
     public class CheckoutIntegrationTest
     {
         [TestMethod]
-        public async Task Example1()
+        public async Task Example1_MultipurchaseDiscountAdvantage()
         {
             // Arrange
             ICheckout checkout = Initialize();
@@ -23,7 +23,7 @@ namespace Parcel2Go.TechTest2024.IntegrationTests
         }
 
         [TestMethod]
-        public async Task Example2()
+        public async Task Example2_NoMultipurchaseDiscount()
         {
             // Arrange
             ICheckout checkout = Initialize();
@@ -36,7 +36,7 @@ namespace Parcel2Go.TechTest2024.IntegrationTests
         }
 
         [TestMethod]
-        public async Task Example3()
+        public async Task Example3_MixOfDiscountsAndNoDiscount()
         {
             // Arrange
             ICheckout checkout = Initialize();
