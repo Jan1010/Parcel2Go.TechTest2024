@@ -4,9 +4,9 @@
     {
         Task Scan(string service, CancellationToken cancellationToken = default); // Adds a service to the checkout
         /// <summary>
-        /// Returns total price in minor currency units
+        /// Returns total price
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Total price in minor currency units</returns>
         int GetTotalPrice(); // Calculates the total price, applying the best discount option
     }
 }
